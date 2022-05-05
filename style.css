@@ -1,0 +1,44 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: lightblue;
+  margin: auto;
+  border-top: 10px, 0 0 
+}
+
+h1{
+  text-align: center;
+  text-decoration: underline;
+  font-family: serif, "Time New Roman"
+}
+
+h2{
+  text-align: center;
+  font-family:"Time New Roman", sans-serif
+}
+
+p{
+  text-align: center;
+  color: #060505;
+  font-family: fantasy;
+}
+
+.background{
+  background-color:#dddde9;
+  box-sizing: border-box;
+}
+
+div{
+  text-align: center;
+}
+
+.list{
+text-align: left;
+text-decoration: underline;
+}
+
+img{
+  max-width: 100%
+  height: auto;
+  border: 3px solid black
+}
