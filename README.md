@@ -1,3 +1,3 @@
 # Portfolio
 
-A small project a made by only using HTML and CSS
+A small beginner project made by only using HTML and CSS
