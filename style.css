@@ -1,11 +1,14 @@
+/* this is the overall layout for the page*/
 html, body {
   height: 100%;
   width: 100%;
   background-color: lightblue;
   margin: auto;
-  border-top: 10px, 0 0 
+  padding: 10px
+  border-top: 10px, 0, 0 
 }
 
+/*This concept for h1 h2 and p keeping it centered and neat*/
 h1{
   text-align: center;
   text-decoration: underline;
@@ -21,8 +24,10 @@ p{
   text-align: center;
   color: #060505;
   font-family: fantasy;
+  font: 
 }
 
+/* I decided to put grey background for the header and footer for a more decorative seperation */
 .background{
   background-color:#dddde9;
   box-sizing: border-box;
@@ -32,13 +37,55 @@ div{
   text-align: center;
 }
 
+
 .list{
-text-align: left;
+text-align: center;
 text-decoration: underline;
 }
 
+/*All the images have this same format*/
 img{
   max-width: 100%
   height: auto;
   border: 3px solid black
+}
+
+
+
+/* unvisited link */
+a:link {
+  background-color: #eb1000;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 10%
+}
+
+/* visited link */
+a:visited {
+  background-color: purple;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* mouse over link */
+a:hover {
+  background-color: blue;
+}
+
+/* selected link */
+a:active {
+  background-color: cyan;
+}
+
+a{
+  padding: 25px;
+  text-align: center;
+  font-family: sans-serif;
+  
 }
